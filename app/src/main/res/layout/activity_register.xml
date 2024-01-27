@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    tools:context=".Register">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="Welcome to"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Ho Chi Minh city"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="-1000dp"
+        android:layout_marginTop="20dp"
+        android:ems="120"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="-1000dp"
+        android:ems="120"
+        android:hint="YourPassword"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textSize="25dp" />
+    <EditText
+        android:id="@+id/editTextConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="-1000dp"
+        android:ems="120"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/buttonCreate"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:text="Create new Account"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonCreated"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="#C63232"
+        android:backgroundTint="#EF2213"
+        android:text="Already have an Account"
+        android:layout_marginTop="190dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
